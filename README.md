@@ -1,24 +1,2 @@
-# Algorithms and Data Structures
-
-Welcome to my algorithm analysis repository. This project contains implementations of fundamental data structures and algorithms in **Python**, focusing on code clarity and **Big O** complexity analysis.
-
-Each module includes the implementation code and a specific README explaining the logic, use cases, and performance metrics.
-
-## Repository Structure
-
-| Topic | Description |
-|-------|-------------|
-| **[Sorting Algorithms](./Sorting)** | Bubble, Selection, Insertion, Merge, Quick Sort implementations with analysis. |
-| **Searching Algorithms** | Linear and Binary Search implementations. |
-| **Graph Algorithms** | BFS, DFS, Dijkstra, and MST algorithms. |
-| **Data Structures** | Trees, Linked Lists, Heaps etc. |
-
----
-
-## Technologies & Tools
-* **Language:** Python 3.x
-* **Concepts:** Recursion, Divide and Conquer, Dynamic Programming (soon)
-* **Version Control:** Git & GitHub
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+# algorithms
+A comprehensive collection of standard algorithms and data structures with time complexity analysis.
