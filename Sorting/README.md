@@ -14,3 +14,30 @@
 
 ### Çalışma Mantığı
 Dizi üzerinde defalarca geçiş yapar. Her geçişte en büyük eleman "baloncuk" gibi dizinin sonuna yükselir.
+
+---
+
+## 2. Selection Sort
+**Tanım:** Dizideki en küçük elemanı bulup en başa koyarak ilerleyen algoritmadır.
+
+### Karmaşıklık Analizi
+| Durum | Zaman Karmaşıklığı | Açıklama |
+|-------|--------------------|----------|
+| **Hepsi** | $O(n^2)$ | Dizi sıralı olsa bile her elemanı kontrol eder. |
+
+* **Alan:** $O(1)$
+* **Not:** Bellek yazma işlemi (swap) sayısı azdır, bu yüzden yazma maliyeti yüksek belleklerde Bubble Sort'tan iyidir.
+
+---
+
+## 3. Insertion Sort
+**Tanım:** Her elemanı, kendinden önceki sıralı alt dizi içinde doğru yere yerleştirir.
+
+### Karmaşıklık Analizi
+| Durum | Zaman Karmaşıklığı | Açıklama |
+|-------|--------------------|----------|
+| **En İyi** | $O(n)$ | Dizi zaten sıralıysa sadece kontrol edip geçer. |
+| **En Kötü** | $O(n^2)$ | Dizi tersten sıralıysa. |
+
+* **Alan:** $O(1)$
+* **Not:** Küçük veri setlerinde ve neredeyse sıralı dizilerde çok hızlıdır.
