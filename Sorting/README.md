@@ -41,3 +41,30 @@ Dizi üzerinde defalarca geçiş yapar. Her geçişte en büyük eleman "baloncu
 
 * **Alan:** $O(1)$
 * **Not:** Küçük veri setlerinde ve neredeyse sıralı dizilerde çok hızlıdır.
+
+---
+
+## 4. Merge Sort
+**Tanım:** Diziyi sürekli ikiye bölüp, en küçük parçadan başlayarak sıralı şekilde birleştiren (Divide and Conquer) algoritmadır.
+
+### Karmaşıklık Analizi
+| Durum | Zaman Karmaşıklığı | Açıklama |
+|-------|--------------------|----------|
+| **Hepsi** | $O(n \log n)$ | Her durumda diziyi böler ve birleştirir. Garantili performans sağlar. |
+
+* **Alan:** $O(n)$ (Yardımcı diziler için ekstra bellek gerekir).
+* **Not:** Büyük veri setleri için çok uygundur (Stable sort'tur).
+
+---
+
+## 5. Quick Sort
+**Tanım:** Bir "pivot" eleman seçip, ondan küçükleri sola, büyükleri sağa atarak ilerleyen algoritmadır.
+
+### Karmaşıklık Analizi
+| Durum | Zaman Karmaşıklığı | Açıklama |
+|-------|--------------------|----------|
+| **Ortalama** | $O(n \log n)$ | Genellikle en hızlı çalışan sıralama algoritmasıdır. |
+| **En Kötü** | $O(n^2)$ | Pivot hep en büyük/küçük eleman seçilirse (Nadir). |
+
+* **Alan:** $O(\log n)$ (Recursion stack için).
+* **Not:** Merge Sort'a göre daha az bellek harcar ama "Worst Case" riski vardır.
