@@ -9,9 +9,9 @@ Each module includes the implementation code and a specific README explaining th
 | Topic | Description |
 |-------|-------------|
 | **[Sorting Algorithms](./Sorting)** | Bubble, Selection, Insertion, Merge, Quick Sort implementations with analysis. |
-| **Searching Algorithms** | Linear and Binary Search implementations. |
-| **Graph Algorithms** | BFS, DFS, Dijkstra, and MST algorithms. |
-| **Data Structures** | Trees, Linked Lists, Heaps etc. |
+| **[Searching Algorithms](./Searching)** | Linear and Binary Search implementations. |
+| **[Graph Algorithms](.Graph_Algorithms)** | BFS, DFS, Dijkstra, and MST algorithms. |
+| **[Data Structures](.Data_Structures)** | Trees, Linked Lists, Heaps etc. |
 
 
 ---
@@ -23,3 +23,4 @@ Each module includes the implementation code and a specific README explaining th
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
