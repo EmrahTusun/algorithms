@@ -42,3 +42,18 @@
 |-------|--------------------|----------|
 | **Enqueue (Ekle)** | $O(1)$ | Sona eklemek. |
 | **Dequeue (Çıkar)** | $O(1)$ | Baştan çıkarmak (deque ile). |
+
+---
+
+## 4. Binary Search Tree (BST)
+**Tanım:** Her düğümün en fazla iki çocuğunun olduğu ve "Sol < Kök < Sağ" kuralına uyan ağaç yapısıdır.
+* **Kullanım Alanı:** Veritabanı indeksleme, Dosya sistemleri, Sıralı veri tutma.
+
+### Karmaşıklık Analizi
+| İşlem | Ortalama (Dengeli Ağaç) | En Kötü (Dengesiz Ağaç) |
+|-------|-------------------------|-------------------------|
+| **Ekleme** | $O(\log n)$ | $O(n)$ |
+| **Arama** | $O(\log n)$ | $O(n)$ |
+| **Silme** | $O(\log n)$ | $O(n)$ |
+
+> **Kritik Not:** Eğer sayıları sırayla eklerseniz (1, 2, 3, 4, 5...) ağaç bir çizgiye (Linked List) dönüşür ve performansı $O(n)$'e düşer. Bunu çözmek için **AVL Tree** veya **Red-Black Tree** gibi "kendini dengeleyen" ağaçlar kullanılır.
