@@ -57,3 +57,18 @@
 | **Silme** | $O(\log n)$ | $O(n)$ |
 
 > **Kritik Not:** Eğer sayıları sırayla eklerseniz (1, 2, 3, 4, 5...) ağaç bir çizgiye (Linked List) dönüşür ve performansı $O(n)$'e düşer. Bunu çözmek için **AVL Tree** veya **Red-Black Tree** gibi "kendini dengeleyen" ağaçlar kullanılır.
+
+---
+
+## 5. Hash Map (Hash Table)
+**Tanım:** Anahtar-Değer (Key-Value) çiftlerini saklayan yapıdır. Bir anahtarın bellekteki yerini matematiksel bir "Hash Fonksiyonu" ile hesaplar.
+* **Kullanım Alanı:** Veritabanı önbellekleme (Caching), Python Dictionary, Benzersiz eleman kontrolü.
+
+### Karmaşıklık Analizi
+| İşlem | Ortalama Durum | En Kötü Durum (Çakışma) |
+|-------|----------------|-------------------------|
+| **Ekleme (Set)** | $O(1)$ | $O(n)$ |
+| **Erişim (Get)** | $O(1)$ | $O(n)$ |
+| **Silme (Remove)** | $O(1)$ | $O(n)$ |
+
+> **Not:** "En Kötü Durum", hash fonksiyonu kötü tasarlandığında ve herkes aynı indekse (kovaya) düştüğünde oluşur. İyi bir hash fonksiyonu ile işlemler neredeyse anlıktır ($O(1)$).
