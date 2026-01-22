@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Repo Size](https://img.shields.io/github/repo-size/EmrahTusun/algorithms-and-data-structures)
 ![Issues](https://img.shields.io/github/issues/EmrahTusun/algorithms-and-data-structures)
-![Stars](https://img.shields.io/github/stars/EmrahTusun/algorithms-and-data-structures?style=social)
+![Stars](https://img.shields.io/github/stars/EmrahTusun/algorithms?style=social)
 
 Welcome to my algorithm analysis repository. This project contains implementations of fundamental data structures and algorithms in **Python**, focusing on code clarity and **Big O** complexity analysis.
 
