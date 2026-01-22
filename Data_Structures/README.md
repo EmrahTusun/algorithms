@@ -72,3 +72,18 @@
 | **Silme (Remove)** | $O(1)$ | $O(n)$ |
 
 > **Not:** "En Kötü Durum", hash fonksiyonu kötü tasarlandığında ve herkes aynı indekse (kovaya) düştüğünde oluşur. İyi bir hash fonksiyonu ile işlemler neredeyse anlıktır ($O(1)$).
+
+---
+
+## 6. Trie (Prefix Tree)
+**Tanım:** Metin tabanlı verilerde arama yapmak için özelleşmiş, ağaç tabanlı bir veri yapısıdır.
+* **Kullanım Alanı:** Otomatik tamamlama (Autocomplete), Yazım denetimi (Spell Checker), IP yönlendirme.
+
+### Karmaşıklık Analizi
+| İşlem | Zaman Karmaşıklığı | Açıklama |
+|-------|--------------------|----------|
+| **Ekleme (Insert)** | $O(L)$ | $L$: Kelimenin uzunluğu. |
+| **Arama (Search)** | $O(L)$ | Kelime sayısı ne kadar artarsa artsın hız değişmez! |
+| **Önek Kontrolü** | $O(L)$ | Prefix uzunluğu kadar işlem yapar. |
+
+> **Hash Map ile Farkı:** Hash Map'te "ile başlayanlar" sorgusunu yapmak zordur. Trie bu iş için biçilmiş kaftandır.
